@@ -94,8 +94,6 @@ class DisplayResUtil(object):
     def _win32_get():
         '''
         Get the primary windows display width and height
-        For some reason this only returns the physical resolution,
-        I'm not sure how to get the actual display resolution
         '''
         import ctypes
 
